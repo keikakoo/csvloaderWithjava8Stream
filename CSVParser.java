@@ -50,7 +50,7 @@ public class CSVfileloader {
         compnentPanel.add(addCSVUrlbtn);
         compnentPanel.add(openCSVUrlbtn);
         dataPerviewtable=new JTable();
-
+        JButton test=new Jbutton("test for github");
         perviewpnl = new JPanel();
         perviewpnl.setLayout(new BoxLayout(perviewpnl, BoxLayout.Y_AXIS));
         perviewpnl.add(dataPerviewtable);
